@@ -1,0 +1,34 @@
+:root{
+    --bg-color: rgb(12, 12, 12);
+    --font-size: 12px;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    background-color: antiquewhite;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-sec2{
+    display: flex;
+    gap: 12px;
+    
+}
+.nav-sec2 a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 800;
+    color: black;
+    border: 1px solid;
+    padding: 2px 4px;
+    border-radius: 12px;
+    background-color: rgb(250, 227, 197);
+}
+.nav-sec1{
+    font-size: 23px;
+    font-weight: bolder;
+}
