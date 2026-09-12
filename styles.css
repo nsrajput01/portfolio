@@ -150,7 +150,7 @@ button {
   margin-bottom: 5px;
 }
 
-.info span {
+.info span, h3 {
   color: var(--muted);
 }
 .skills-grid {
@@ -395,4 +395,30 @@ form button {
 .btn-outline:hover {
   background: var(--primary);
   color: #00141a;
+}
+
+footer {
+  text-align: center;
+  padding: 30px;
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+}
+
+footer span {
+  color: var(--primary);
+}
+
+.social-links {
+  margin-bottom: 15px;
+}
+
+.social-links a {
+  display: inline-block;
+  margin: 0 8px;
+  color: var(--muted);
+  transition: 0.3s;
+}
+
+.social-links a:hover {
+  color: var(--primary);
 }
